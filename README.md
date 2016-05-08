@@ -6,7 +6,7 @@ A simple HTTP server that can be embedded in a UWP application, in particular a 
 # Quick start
 To use the HTTP server do the following.
 
-## Implement the HTTP request processing.
+## Implement the HTTP request processing
 A HTTP request is processed by class that implements the `IRequestProcesor` interface. This interface is listed below.
 
 ```c#
@@ -50,14 +50,14 @@ Server.Stop();
 # Additional information
 This section contains information of other classes that may be useful when implementing an application that uses the HTTP Server.
 
-## Predefined IRequestProcessor implementations
+## Predefined `IRequestProcessor` implementations
 There are two predefined `IRequestProcessor` implementations.
 
 `HTTPRequestProcessorFileRetriever` can be used to return a file.
 
 `HTTPRequestProcessorPostFrom` can be used to process a POST request for a form. To use this class derive from it and implement the abstract method `ProcessRequest`. The form fields are passed to this method. 
 
-## Response body classes.
+## Response body classes
 The content of the HTTP response body can be specified using one of the following classes.
 
 * `HTTPResponseBodyBinaryFile`
