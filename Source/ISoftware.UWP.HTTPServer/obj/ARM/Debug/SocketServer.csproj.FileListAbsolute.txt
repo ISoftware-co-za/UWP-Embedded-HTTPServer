@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\bin\ARM\Debug\ISoftware.CourtControl.SocketServer.dll
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\bin\ARM\Debug\ISoftware.CourtControl.SocketServer.pdb
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\bin\ARM\Debug\ISoftware.CourtControl.SocketServer.pri
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\ISoftware.CourtControl.SocketServer.dll
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\ISoftware.CourtControl.SocketServer.pdb
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\priconfig.xml
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\priconfig.xml.intermediate
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\layout.resfiles
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\layout.resfiles.intermediate
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\resources.resfiles
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\resources.resfiles.intermediate
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\pri.resfiles
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\pri.resfiles.intermediate
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\qualifiers.txt
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\qualifiers.txt.intermediate
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+\\Mac\Home\Documents\Work\ISoftware\CourtControl\Source\SocketServer\obj\ARM\Debug\SocketServer.csprojResolveAssemblyReference.cache

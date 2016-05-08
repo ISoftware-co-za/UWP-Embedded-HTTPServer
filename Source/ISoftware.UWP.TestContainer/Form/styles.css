@@ -1,0 +1,68 @@
+﻿body {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-image: url("background.png");
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+}
+
+header {
+    padding: 10px 10px 10px 10px;
+    background: steelblue;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    clear: both;
+}
+
+h1 {
+    display: inline-block;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 34px;
+}
+
+h2 {
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 24px;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+}
+
+.isoftwareLogo {
+    float: right;
+    margin-top: 20px;
+}
+
+.license {
+    width: 50%;
+    margin: 50px 20px 20px 20px;
+    font-size: 13px;
+}
+
+.contact {
+    width: 50%;
+    margin: 50px 20px 20px 20px;
+    font-size: 16px;
+}
+
+form {
+    margin: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form div {
+    margin-top: 20px;
+}

@@ -1,0 +1,17 @@
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\bin\ARM\Debug\ISoftware.UWP.IOT.dll
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\bin\ARM\Debug\ISoftware.UWP.IOT.pdb
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\bin\ARM\Debug\ISoftware.UWP.IOT.pri
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\ISoftware.UWP.IOT.dll
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\ISoftware.UWP.IOT.pdb
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\priconfig.xml
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\priconfig.xml.intermediate
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\layout.resfiles
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\layout.resfiles.intermediate
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\resources.resfiles
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\resources.resfiles.intermediate
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\pri.resfiles
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\pri.resfiles.intermediate
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\qualifiers.txt
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\qualifiers.txt.intermediate
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Work\ISoftware\CourtControl\Source\ISoftware.UWP.IOT\obj\ARM\Debug\ISoftware.UWP.IOT.csprojResolveAssemblyReference.cache

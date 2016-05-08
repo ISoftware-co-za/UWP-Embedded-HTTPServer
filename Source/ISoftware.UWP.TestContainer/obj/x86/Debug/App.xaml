@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="ISoftware.UWP.TestContainer.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ISoftware.UWP.TestContainer"
+    RequestedTheme="Light">
+
+</Application>
+
