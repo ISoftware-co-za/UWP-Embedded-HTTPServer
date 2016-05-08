@@ -1,7 +1,5 @@
-# UWP-Embedded-HTTPServer
+# UWP-Embedded-HTTPServer ![Logo](/Images/logo.png?raw=true)
 A simple HTTP server that can be embedded in a UWP application, in particular an Windows 10 IoT Core application.
-
-![Logo](/images/logo.png?raw=true)
 
 # Quick start
 To use the HTTP server do the following.
