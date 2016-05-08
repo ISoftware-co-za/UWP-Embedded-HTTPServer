@@ -1,6 +1,5 @@
-![Logo](/Images/logo.png?raw=true)
 # UWP-Embedded-HTTPServer
-A simple HTTP server that can be embedded in a UWP application, in particular an Windows 10 IoT Core application.
+![Logo](/Images/logo.png?raw=true) A simple HTTP server that can be embedded in a UWP application, in particular an Windows 10 IoT Core application. The HTTP Server can be used to configure, control and get status information on the IoT device.
 
 # Quick start
 To use the HTTP server do the following.
@@ -46,6 +45,24 @@ The Server can be stopped by calling the Stop method.
 ```c#
 Server.Stop();
 ```
+# Additional information
+This section contains information of other classes that may be useful when implementing an application that uses the HTTP Server.
 
+## Predefined IRequestProcessor implementations
+There are two predefined `IRequestProcessor` implementations.
+
+`HTTPRequestProcessorFileRetriever` can be used to return a file.
+
+`HTTPRequestProcessorPostFrom` can be used to process a POST request for a form. To use this class derive from it and implement the abstract method `ProcessRequest`. The form fields are passed to this method. 
+
+## Response body classes.
+The content of the HTTP response body can be specified using one of the following classes.
+
+* `HTTPResponseBodyBinaryFile`
+* `HTTPResponseBodyTextFile`
+* `HTTPResponseBodyString`
+
+# Sample
+The source includes the TestContainer project which is a simple UWP application that uses the HTTP Server.
 
 
