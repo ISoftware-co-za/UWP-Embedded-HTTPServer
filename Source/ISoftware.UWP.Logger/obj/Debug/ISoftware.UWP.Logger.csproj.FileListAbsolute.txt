@@ -1,0 +1,16 @@
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\bin\Debug\ISoftware.UWP.Logger.dll
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\bin\Debug\ISoftware.UWP.Logger.pdb
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\bin\Debug\ISoftware.UWP.Logger.pri
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\ISoftware.UWP.Logger.dll
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\ISoftware.UWP.Logger.pdb
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\priconfig.xml
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\priconfig.xml.intermediate
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\layout.resfiles
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\layout.resfiles.intermediate
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\resources.resfiles
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\resources.resfiles.intermediate
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\pri.resfiles
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\pri.resfiles.intermediate
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\qualifiers.txt
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\qualifiers.txt.intermediate
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\obj\Debug\MultipleQualifiersPerDimensionFound.txt

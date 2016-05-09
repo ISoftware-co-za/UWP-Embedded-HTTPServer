@@ -9,7 +9,9 @@ You should have received a copy of the GNU General Public License along with Foo
 */
 
 using System;
+using System.Diagnostics;
 using System.IO;
+using System.Threading;
 using System.Threading.Tasks;
 using Windows.Storage;
 using ISoftware.UWP.Logger;
@@ -55,12 +57,14 @@ namespace ISoftware.UWP.FileLogger
 
         private string GenerateFileName(DateTime dateTime, LoggedItemCategory loggedItemCategory)
         {
-            return $"{MessageFilePrefix} {dateTime.Year}-{dateTime.Month:00}-{dateTime.Day:00}H{dateTime.Hour:00}M{dateTime.Minute:00}S{dateTime.Second}_{dateTime.Millisecond} {loggedItemCategory}.json";
+            Interlocked.Increment(ref _counter);
+            return $"{MessageFilePrefix} {dateTime.Year}-{dateTime.Month:00}-{dateTime.Day:00}H{dateTime.Hour:00}M{dateTime.Minute:00}S{dateTime.Second:00}({_counter}) {loggedItemCategory}.json";
         }
 
         private string GenerateFileName(DateTime dateTime, LoggedItemCategory loggedItemCategory, string operation)
         {
-            return $"{OperationFilePrefix} {dateTime.Year}-{dateTime.Month:00}-{dateTime.Day:00}H{dateTime.Hour:00}M{dateTime.Minute:00}S{dateTime.Second}_{dateTime.Millisecond} {loggedItemCategory} {operation}.json";
+            Interlocked.Increment(ref _counter);
+            return $"{OperationFilePrefix} {dateTime.Year}-{dateTime.Month:00}-{dateTime.Day:00}H{dateTime.Hour:00}M{dateTime.Minute:00}S{dateTime.Second:00}({_counter}) {loggedItemCategory} {operation}.json";
         }
 
         private async Task WriteTextFile(string fileName, string serialisedLoggedMessage)
@@ -74,5 +78,6 @@ namespace ISoftware.UWP.FileLogger
         }
 
         private readonly StorageFolder _folder;
+        private static int _counter;
     }
 }
