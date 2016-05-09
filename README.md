@@ -7,7 +7,7 @@ A simple HTTP server that can be embedded in an UWP application, in particular a
 To use the HTTP server do the following.
 
 ## Implement the HTTP request processing
-A HTTP request is processed by class that implements the `IRequestProcesor` interface. This interface is listed below.
+A HTTP request is processed by a class that implements the `IRequestProcesor` interface. This interface is listed below.
 
 ```c#
   public interface IRequestProcessor
