@@ -82,7 +82,7 @@ namespace ISoftware.UWP.TestContainer
 
             Server = new Server(5400, 30 * 1000, new FileLogger.FileLogger(true, logFolder));
 
-            Server.DefaultHeadres.Add(new HTTPHeader(HTTPHeaders.Cache_Control, "no-cache"));
+            Server.DefaultHeaders.Add(new HTTPHeader(HTTPHeaders.Cache_Control, "no-cache"));
 
             Server.Router.AddRoute("/about", new HTTPRequestProcessorFileRetriever("about"));
             Server.Router.AddRoute("/form/post", new HTTPRequestProcessorFormPost());

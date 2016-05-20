@@ -220,3 +220,4 @@ C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\obj\x86\Debug
 C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\obj\x86\Debug\ProjectArchitectures.txt
+C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\bin\x86\Debug\Logs\style.css

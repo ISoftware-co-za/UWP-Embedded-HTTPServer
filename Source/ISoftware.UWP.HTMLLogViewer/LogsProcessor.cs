@@ -35,7 +35,7 @@ namespace ISoftware.UWP.HTMLLogViewer
             {
                 if (logFile.Name.StartsWith(FileLogger.FileLogger.MessageFilePrefix))
                     table.Append(await GenerateMessageRow(rowTemplate, logFile));
-                if (logFile.Name.StartsWith(FileLogger.FileLogger.MessageFilePrefix))
+                if (logFile.Name.StartsWith(FileLogger.FileLogger.OperationFilePrefix))
                     table.Append(await GenerateOperationRow(rowTemplate, logFile));
             }
 
@@ -47,30 +47,58 @@ namespace ISoftware.UWP.HTMLLogViewer
 
         private async Task<string> GenerateMessageRow(string rowTemplate, StorageFile messageFile)
         {
-            string fileContent = await FileIO.ReadTextAsync(messageFile);
-            LoggedMessage loggedMessage = JsonConvert.DeserializeObject<LoggedMessage>(fileContent);
+            try
+            {
+                string fileContent = await FileIO.ReadTextAsync(messageFile);
+                LoggedMessage loggedMessage = JsonConvert.DeserializeObject<LoggedMessage>(fileContent);
+                string cssClass = loggedMessage.Category.ToString().ToLowerInvariant();
 
-            string fileAnchor = $"<a href=\"/logs/{messageFile.Name}\">{loggedMessage.DateTime.ToString("yyyy-MM-dd hh:mm:ss")}</a>";
+                string fileAnchor = $"<a href=\"/logs/{messageFile.Name}\">{loggedMessage.DateTime.ToString("yyyy-MM-dd hh:mm:ss")}</a>";
 
-            rowTemplate = rowTemplate.Replace("{date}", fileAnchor);
-            rowTemplate = rowTemplate.Replace("{type}", "MESSAGE");
-            rowTemplate =rowTemplate.Replace("{category}", loggedMessage.Category.ToString());
-            rowTemplate =rowTemplate.Replace("{description}", loggedMessage.Message);
+                rowTemplate = rowTemplate.Replace("{class}", cssClass);
+                rowTemplate = rowTemplate.Replace("{date}", fileAnchor);
+                rowTemplate = rowTemplate.Replace("{type}", "MESSAGE");
+                rowTemplate = rowTemplate.Replace("{category}", loggedMessage.Category.ToString());
+                rowTemplate = rowTemplate.Replace("{description}", loggedMessage.Message);
+            }
+            catch (Exception exception)
+            {
+                rowTemplate = rowTemplate.Replace("{date}", "");
+                rowTemplate = rowTemplate.Replace("{type}", "");
+                rowTemplate = rowTemplate.Replace("{category}", "");
+                rowTemplate = rowTemplate.Replace("{description}", exception.Message);
+
+                await messageFile.DeleteAsync();
+            }
 
             return rowTemplate;
         }
 
         private async Task<string> GenerateOperationRow(string rowTemplate, StorageFile operationFile)
         {
-            string fileContent = await FileIO.ReadTextAsync(operationFile);
-            LoggedOperation loggedMessage = JsonConvert.DeserializeObject<LoggedOperation>(fileContent);
+            try
+            {
+                string fileContent = await FileIO.ReadTextAsync(operationFile);
+                LoggedOperation loggedMessage = JsonConvert.DeserializeObject<LoggedOperation>(fileContent);
+                string cssClass = loggedMessage.Category.ToString().ToLowerInvariant();
 
-            string fileAnchor = $"<a href=\"/logs/{operationFile.Name}\">{loggedMessage.DateTime.ToString("yyyy-MM-dd hh:mm:ss")}</a>";
+                string fileAnchor = $"<a href=\"/logs/{operationFile.Name}\">{loggedMessage.DateTime.ToString("yyyy-MM-dd hh:mm:ss")}</a>";
 
-            rowTemplate = rowTemplate.Replace("{date}", fileAnchor);
-            rowTemplate = rowTemplate.Replace("{type}", "OPERATION");
-            rowTemplate = rowTemplate.Replace("{category}", loggedMessage.Category.ToString());
-            rowTemplate = rowTemplate.Replace("{description}", loggedMessage.Operation);
+                rowTemplate = rowTemplate.Replace("{class}", cssClass);
+                rowTemplate = rowTemplate.Replace("{date}", fileAnchor);
+                rowTemplate = rowTemplate.Replace("{type}", "OPERATION");
+                rowTemplate = rowTemplate.Replace("{category}", loggedMessage.Category.ToString());
+                rowTemplate = rowTemplate.Replace("{description}", loggedMessage.Operation);
+            }
+            catch (Exception exception)
+            {
+                rowTemplate = rowTemplate.Replace("{date}", "");
+                rowTemplate = rowTemplate.Replace("{type}", "");
+                rowTemplate = rowTemplate.Replace("{category}", "");
+                rowTemplate = rowTemplate.Replace("{description}", exception.Message);
+
+                await operationFile.DeleteAsync();
+            }
 
             return rowTemplate;
         }

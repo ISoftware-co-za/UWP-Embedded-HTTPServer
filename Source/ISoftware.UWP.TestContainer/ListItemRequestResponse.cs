@@ -36,7 +36,7 @@ namespace ISoftware.UWP.TestContainer
 
             if (args.Response != null)
             {
-                if (args.Response.Headers.ContainsKey(HTTPHeaders.Content_Type))
+                if (args.Response.Headers != null && args.Response.Headers.ContainsKey(HTTPHeaders.Content_Type))
                     ResponseContent = args.Response.Headers[HTTPHeaders.Content_Type];
             }
 

@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #A0A0A0;
+    padding: 5px;
+}
+
+th {
+    background: steelblue;
+    color:white;
+}
+
+.information {
+    background: #e0ffe0;
+}
+
+.warning {
+    background: #e0e0e0;
+}
+
+.error {
+    background: #ffe0e0;
+}
+
+.label {
+    color: #808080;
+    margin-top: 10px;
+    margin: 0;
+}
+
+.value {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 20px;
+}

@@ -114,6 +114,7 @@
     <Compile Include="LogsFileDeleteProcessor.cs" />
     <Compile Include="LogsFileProcessor.cs" />
     <Compile Include="LogsProcessor.cs" />
+    <Compile Include="LogsStaticContentProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResponseUtilities.cs" />
     <EmbeddedResource Include="Properties\ISoftware.UWP.HTMLLogViewer.rd.xml" />

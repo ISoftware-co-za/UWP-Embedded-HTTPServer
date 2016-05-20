@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-09T14:39:13.660</Modified>
+      <Modified>2016-05-20T20:54:11.738</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\bin\x86\Debug\ISoftware.UWP.TestContainer.exe">
       <PackagePath>entrypoint\ISoftware.UWP.TestContainer.exe</PackagePath>
-      <Modified>2016-05-09T14:39:13.150</Modified>
+      <Modified>2016-05-20T20:54:09.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\keithcrompton\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -460,145 +460,149 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.FileLogger\bin\Debug\ISoftware.UWP.FileLogger.dll">
       <PackagePath>ISoftware.UWP.FileLogger.dll</PackagePath>
-      <Modified>2016-05-09T14:39:09.279</Modified>
+      <Modified>2016-05-20T20:53:58.846</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.HTMLLogViewer\bin\Debug\ISoftware.UWP.HTMLLogViewer.dll">
       <PackagePath>ISoftware.UWP.HTMLLogViewer.dll</PackagePath>
-      <Modified>2016-05-09T14:39:10.553</Modified>
+      <Modified>2016-05-20T20:54:01.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.HTTPServer\bin\Debug\ISoftware.UWP.HTTPServer.dll">
       <PackagePath>ISoftware.UWP.HTTPServer.dll</PackagePath>
-      <Modified>2016-05-09T14:22:56.017</Modified>
+      <Modified>2016-05-20T20:54:00.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.Logger\bin\Debug\ISoftware.UWP.Logger.dll">
       <PackagePath>ISoftware.UWP.Logger.dll</PackagePath>
-      <Modified>2016-05-09T14:22:53.555</Modified>
+      <Modified>2016-05-20T20:53:56.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\About\about.html">
       <PackagePath>About\about.html</PackagePath>
-      <Modified>2016-05-09T14:20:32.122</Modified>
+      <Modified>2016-05-20T17:30:43.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Form\FormPost.html">
       <PackagePath>Form\FormPost.html</PackagePath>
-      <Modified>2016-05-09T14:20:32.363</Modified>
+      <Modified>2016-05-20T17:30:43.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Form\Form.html">
       <PackagePath>Form\Form.html</PackagePath>
-      <Modified>2016-05-09T14:20:32.347</Modified>
+      <Modified>2016-05-20T17:30:43.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.HTMLLogViewer\ViewError.html">
       <PackagePath>ISoftware.UWP.HTMLLogViewer\ViewError.html</PackagePath>
-      <Modified>2016-05-09T14:20:31.537</Modified>
+      <Modified>2016-05-20T20:48:31.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.HTMLLogViewer\ViewFileMaster.html">
       <PackagePath>ISoftware.UWP.HTMLLogViewer\ViewFileMaster.html</PackagePath>
-      <Modified>2016-05-09T14:20:31.537</Modified>
+      <Modified>2016-05-20T20:01:51.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.HTMLLogViewer\ViewFileOperation.html">
       <PackagePath>ISoftware.UWP.HTMLLogViewer\ViewFileOperation.html</PackagePath>
-      <Modified>2016-05-09T14:20:31.553</Modified>
+      <Modified>2016-05-20T20:53:45.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.HTMLLogViewer\ViewFileMessage.html">
       <PackagePath>ISoftware.UWP.HTMLLogViewer\ViewFileMessage.html</PackagePath>
-      <Modified>2016-05-09T14:20:31.553</Modified>
+      <Modified>2016-05-20T20:16:34.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.HTMLLogViewer\ViewLogsRow.html">
       <PackagePath>ISoftware.UWP.HTMLLogViewer\ViewLogsRow.html</PackagePath>
-      <Modified>2016-05-09T14:20:31.575</Modified>
+      <Modified>2016-05-20T19:03:20.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.HTMLLogViewer\ViewLogsMaster.html">
       <PackagePath>ISoftware.UWP.HTMLLogViewer\ViewLogsMaster.html</PackagePath>
-      <Modified>2016-05-09T14:20:31.573</Modified>
+      <Modified>2016-05-20T19:14:30.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.HTTPServer\HTTPServerRouteNotFound.html">
       <PackagePath>ISoftware.UWP.HTTPServer\HTTPServerRouteNotFound.html</PackagePath>
-      <Modified>2016-05-09T14:20:31.838</Modified>
+      <Modified>2016-05-20T17:30:42.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\About\logo.png">
       <PackagePath>About\logo.png</PackagePath>
-      <Modified>2016-05-09T14:20:32.175</Modified>
+      <Modified>2016-05-20T17:30:43.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\About\background.png">
       <PackagePath>About\background.png</PackagePath>
-      <Modified>2016-05-09T14:20:32.154</Modified>
+      <Modified>2016-05-20T17:30:43.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\About\isoftwareLogo.png">
       <PackagePath>About\isoftwareLogo.png</PackagePath>
-      <Modified>2016-05-09T14:20:32.154</Modified>
+      <Modified>2016-05-20T17:30:43.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Form\background.png">
       <PackagePath>Form\background.png</PackagePath>
-      <Modified>2016-05-09T14:20:32.386</Modified>
+      <Modified>2016-05-20T17:30:43.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Form\isoftwareLogo.png">
       <PackagePath>Form\isoftwareLogo.png</PackagePath>
-      <Modified>2016-05-09T14:20:32.402</Modified>
+      <Modified>2016-05-20T17:30:43.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Form\logo.png">
       <PackagePath>Form\logo.png</PackagePath>
-      <Modified>2016-05-09T14:20:32.402</Modified>
+      <Modified>2016-05-20T17:30:43.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\logo.png">
       <PackagePath>logo.png</PackagePath>
-      <Modified>2016-05-09T14:20:32.518</Modified>
+      <Modified>2016-05-20T17:30:53.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2016-05-09T14:20:32.223</Modified>
+      <Modified>2016-05-20T17:30:43.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-09T14:20:32.223</Modified>
+      <Modified>2016-05-20T17:30:43.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-09T14:20:32.238</Modified>
+      <Modified>2016-05-20T17:30:43.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-09T14:20:32.238</Modified>
+      <Modified>2016-05-20T17:30:43.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-09T14:20:32.238</Modified>
+      <Modified>2016-05-20T17:30:43.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-09T14:20:32.254</Modified>
+      <Modified>2016-05-20T17:30:43.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-09T14:20:32.285</Modified>
+      <Modified>2016-05-20T17:30:43.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2016-05-09T14:20:32.207</Modified>
+      <Modified>2016-05-20T17:30:43.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\About\styles.css">
       <PackagePath>About\styles.css</PackagePath>
-      <Modified>2016-05-09T14:20:32.176</Modified>
+      <Modified>2016-05-20T17:30:43.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Form\styles.css">
       <PackagePath>Form\styles.css</PackagePath>
-      <Modified>2016-05-09T14:20:32.402</Modified>
+      <Modified>2016-05-20T17:30:43.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Logs\style.css">
+      <PackagePath>Logs\style.css</PackagePath>
+      <Modified>2016-05-20T20:45:31.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-05-09T14:20:32.502</Modified>
+      <Modified>2016-05-20T17:30:43.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\bin\x86\Debug\ISoftware.UWP.TestContainer.xr.xml">
       <PackagePath>ISoftware.UWP.TestContainer.xr.xml</PackagePath>
-      <Modified>2016-05-09T14:22:59.761</Modified>
+      <Modified>2016-05-20T17:30:55.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.HTTPServer\favicon.ico">
       <PackagePath>ISoftware.UWP.HTTPServer\favicon.ico</PackagePath>
-      <Modified>2016-05-09T14:20:31.976</Modified>
+      <Modified>2016-05-20T17:30:42.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -606,11 +610,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-09T14:23:01.696</Modified>
+      <Modified>2016-05-20T20:54:11.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\bin\x86\Debug\Core\ISoftware.UWP.TestContainer.exe">
       <PackagePath>ISoftware.UWP.TestContainer.exe</PackagePath>
-      <Modified>2016-05-09T14:39:13.654</Modified>
+      <Modified>2016-05-20T20:54:11.736</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

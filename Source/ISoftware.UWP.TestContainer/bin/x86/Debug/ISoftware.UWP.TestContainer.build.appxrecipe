@@ -441,6 +441,9 @@
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Form\styles.css">
       <PackagePath>Form\styles.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Logs\style.css">
+      <PackagePath>Logs\style.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\UWP-Embedded-HTTPServer\Source\ISoftware.UWP.TestContainer\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

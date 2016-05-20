@@ -35,6 +35,8 @@ namespace ISoftware.UWP.HTMLLogViewer
                 processor = new LogsDeleteProcessor();
             else if (cleansedPath.Contains("/LOGS") && cleansedPath.Contains("DELETE"))
                 processor = new LogsFileDeleteProcessor();
+            else if (cleansedPath == "/LOGS/STYLE.CSS")
+                processor = new LogsStaticContentProcessor();
             else
                 processor = new LogsFileProcessor();
 
