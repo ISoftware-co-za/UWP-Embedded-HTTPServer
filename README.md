@@ -65,6 +65,22 @@ The content of the HTTP response body can be specified using one of the followin
 * `HTTPResponseBodyString`
 
 # Sample
-The source includes the TestContainer project which is a simple UWP application that uses the HTTP Server.
+The source includes the TestContainer project. This project is a simple UWP application that uses the HTTP Server. **MainForm.cs** is the view, **ViewModel.cs** is the view model. The Server is initialised in the `Initialise` method of the view model. The initialisation is shown below.
+
+
+```C#
+StorageFolder logFolder = await ApplicationData.Current.LocalFolder.CreateFolderAsync("Logs", CreationCollisionOption.OpenIfExists);          
+
+Server = new Server(5400, 30 * 1000, new FileLogger.FileLogger(true, logFolder));
+
+Server.DefaultHeaders.Add(new HTTPHeader(HTTPHeaders.Cache_Control, "no-cache"));
+
+Server.Router.AddRoute("/about", new HTTPRequestProcessorFileRetriever("about"));
+Server.Router.AddRoute("/form/post", new HTTPRequestProcessorFormPost());
+Server.Router.AddRoute("/form", new HTTPRequestProcessorFileRetriever("form"));
+Server.Router.AddRoute("/logs", new HTMLLogRequestProcessor(logFolder));
+```
+click the **Run** button to start the server. The requests received are listed on the main form. 
+
 
 
